@@ -1,0 +1,1 @@
+export type questionStatus = 'inComplete' | 'complete' | 'override' | 'reSubmit' | 'issued' | 'acceptable' | 'reject';

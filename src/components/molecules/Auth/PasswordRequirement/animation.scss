@@ -1,0 +1,13 @@
+.password-requirements {
+    overflow: hidden;
+    transition: height 0.5s ease-out;
+  }
+  
+  .password-requirements.collapsed {
+    height: 0;
+  }
+  
+  .password-requirements.expanded {
+    height: auto; /* You might need to use a fixed height value based on your content */
+  }
+  
